@@ -635,6 +635,7 @@ form label {
 	-webkit-appearance: none;
 	-ms-overflow-style: none;
 	overflow: -moz-scrollbars-none;
+	overflow-y: -moz-hidden-unscrollable;
 	transform: translate(0%, 0%);
 	transition: transform, opacity, visibility,
 		cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
